@@ -10,6 +10,6 @@
   "packs": [],
   "url": "https://github.com/iotech-fvtt/fantasy-ui",
   "manifest": "https://raw.githubusercontent.com/iotech-fvtt/fantasy-ui/master/module.json",
-  "download": "https://github.com/iotech-fvtt/fantasy-ui/raw/master/fantasy-ui.zip",
+  "download": "https://github.com/iotech-fvtt/fantasy-ui/raw/master/fantasy-ui-master.zip",
   "minimumCoreVersion": "0.4.5"
 }
