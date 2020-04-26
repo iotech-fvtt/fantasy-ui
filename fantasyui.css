@@ -1,0 +1,428 @@
+/* #region Sidebar*/
+
+#sidebar {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: fixed;
+    right: 5px;
+    top: 5px;
+    width: 320px;
+    height: 99vh;
+    overflow: hidden;
+    margin: 0;
+    /* padding: 30px 0 0 10px; */
+    border: 30px solid transparent;
+    border-image-source: url(/modules/fantasy-ui/ui/img/panel1.png);
+    border-image-slice: 30 fill;
+    /* display: inline-block !important; */
+    background-position: center !important;
+    background-size: 300px 100%!important;
+    background-repeat: no-repeat;
+}
+
+.collapse::before{
+    content: "";
+}
+
+#sidebar.collapsed {
+    width: 115px !important;
+    height: 610px !important;
+    border: 30px solid transparent;
+    border-image-source: url(/modules/fantasy-ui/ui/img/panel1.png);
+    border-image-slice: 30 fill;
+    /* display: inline-block !important; */
+    background-position: center !important;
+    background-size: 300px 100%!important;
+    background-repeat: no-repeat;
+}
+
+#sidebar-tabs{
+    text-align: center;
+}
+
+#sidebar #sidebar-tabs > .item {
+    line-height: 0px;
+}
+
+i.fa-caret-right::before{
+    content: "";
+
+}
+
+.fa-caret-right{
+    background-image: url("/modules/fantasy-ui/ui/img/inout.png") !important;
+    width: 40px;
+    height: 30px;
+    display: inline-block !important;
+    background-position:center !important;
+    background-size:20px 15px !important;
+    background-repeat: no-repeat;
+    content: "";
+    text-align: center;
+}
+
+i.fa-caret-left::before{
+    content: "";
+
+}
+
+.fa-caret-left{
+    background-image: url("/modules/fantasy-ui/ui/img/inout.png") !important;
+    width: 40px;
+    height: 30px;
+    display: inline-block !important;
+    background-position:center !important;
+    background-size:20px 15px !important;
+    background-repeat: no-repeat;
+    content: "";
+    text-align: center;
+    vertical-align: top;
+}
+
+#sidebar #sidebar-tabs i.fa-comments {
+    content: "";
+    background-image: url("/modules/fantasy-ui/ui/img/speechbubble.png") !important;
+    width: 50px !important;
+    height: 50px !important;
+    display: inline-block !important;
+    background-position:center !important;
+    background-size:cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-comments::before {
+    content: "";
+}
+
+#sidebar #sidebar-tabs i.fa-fist-raised {
+    content: "";
+    background-image: url("/modules/fantasy-ui/ui/img/barbarian_icons_01_t.png") !important;
+    width: 50px !important;
+    height: 50px !important;
+    display: inline-block !important;
+    background-position:center !important;
+    background-size:cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-fist-raised::before {
+    content: "";
+}
+
+#sidebar #sidebar-tabs i.fa-map {
+    content: "";
+    background-image: url("/modules/fantasy-ui/ui/img/pirates_04_t.png") !important;
+    width: 50px !important;
+    height: 50px !important;
+    display: inline-block !important;
+    background-position:center !important;
+    background-size:cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-map::before {
+    content: "";
+}
+
+#sidebar #sidebar-tabs i.fa-users {
+    content: "";
+    background-image: url("/modules/fantasy-ui/ui/img/zombie_02.png") !important;
+    width: 50px !important;
+    height: 50px !important;
+    display: inline-block !important;
+    background-position:center !important;
+    background-size:cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-users::before {
+    content: "";
+}
+
+#sidebar #sidebar-tabs i.fa-suitcase {
+    content: "";
+    background-image: url("/modules/fantasy-ui/ui/img/chest_t_03.png") !important;
+    width: 50px !important;
+    height: 50px !important;
+    display: inline-block !important;
+    background-position:center !important;
+    background-size:cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-suitcase::before {
+    content: "";
+}
+
+#sidebar #sidebar-tabs i.fa-book-open {
+    content: "";
+    background-image: url("/modules/fantasy-ui/ui/img/scrollsandbooks_102_t.png") !important;
+    width: 50px !important;
+    height: 50px !important;
+    display: inline-block !important;
+    background-position:center !important;
+    background-size:cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-book-open::before {
+    content: "";
+}
+
+#sidebar #sidebar-tabs i.fa-th-list {
+    content: "";
+    background-image: url("/modules/fantasy-ui/ui/img/tabletopbadges_50.png") !important;
+    width: 50px !important;
+    height: 50px !important;
+    display: inline-block !important;
+    background-position:center !important;
+    background-size:cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-th-list::before {
+    content: "";
+}
+
+#sidebar #sidebar-tabs i.fa-music {
+    content: "";
+    background-image: url("/modules/fantasy-ui/ui/img/mi_t_03.png") !important;
+    width: 50px !important;
+    height: 50px !important;
+    display: inline-block !important;
+    background-position:center !important;
+    background-size:cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-music::before {
+    content: "";
+}
+
+#sidebar #sidebar-tabs i.fa-atlas {
+    content: "";
+    background-image: url("/modules/fantasy-ui/ui/img/scrollsandbooks_24_t.png") !important;
+    width: 50px !important;
+    height: 50px !important;
+    display: inline-block !important;
+    background-position:center !important;
+    background-size:cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-atlas::before {
+    content: "";
+}
+
+#sidebar #sidebar-tabs i.fa-cogs {
+    content: "";
+    background-image: url("/modules/fantasy-ui/ui/img/en_craft_35.png") !important;
+    width: 50px !important;
+    height: 50px !important;
+    display: inline-block !important;
+    background-position:center !important;
+    background-size:cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-cogs::before {
+    content: "";
+}
+/* #endregion */
+
+/* #region Chat Tab*/
+.message{
+    background-image: url("/modules/fantasy-ui/ui/img/parchment-smooth.png") !important;
+}
+.message-sender {
+    color: darkred;
+    font-weight: bold;
+    border-bottom-color: darkred;
+    text-decoration: underline;
+}
+#chat-message{
+    background-image: url(/modules/fantasy-ui/ui/img/parchment-smooth.png) !important;
+}
+
+.polyglot-lang-select{
+    color: darkgoldenrod !important;
+}
+.polyglot-lang-select select {
+    font-family: CaslonPro;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    position: relative;
+    height: 24px;
+    top: 7px;
+    padding-top: 0px;
+    background: url(/modules/fantasy-ui/ui/img/parchment-smooth.png) repeat !important;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-position: initial;
+    box-shadow: inset 0 0 10px #000000;
+    border-image: url(/modules/fantasy-ui/ui/img/chat-controls-border.png) 4 repeat;
+    border-image-width: 4px;
+    border-image-outset: 3px 2px 2px 2px;
+    color: #520000;
+    margin-top: -10px;
+}
+.roll-type-select{
+    color: white !important;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#chat-controls .control-buttons{
+    color: white;
+}
+.fa-dice-d20{
+    color: darkgoldenrod;
+}
+#RTB-button {
+    color: darkgoldenrod;
+}
+.fa-save{
+    color: darkgoldenrod;
+}
+.fa-trash{
+    color: darkgoldenrod;
+}
+
+#sidebar .sidebar-tab #chat-controls div.roll-type-select select {
+    font-family: CaslonPro;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    position: relative;
+    height: 24px;
+    top: 7px;
+    padding-top: 3px;
+    background: url(/modules/fantasy-ui/ui/img/parchment-smooth.png) repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-position: initial;
+    box-shadow: inset 0 0 10px #000000;
+    border-image: url(/modules/fantasy-ui/ui/img/chat-controls-border.png) 4 repeat;
+    border-image-width: 4px;
+    border-image-outset: 3px 2px 2px 2px;
+    color: #520000;
+}
+/* #endregion */
+
+/* #region Combat Tab*/
+.fa-plus{
+    color: darkgoldenrod;
+}
+.fa-users-cog{
+    color: darkgoldenrod;
+}
+.fa-undo{
+    color: darkgoldenrod;
+}
+.fa-users {
+    color: darkgoldenrod;
+}
+.fa-cog{
+    color: darkgoldenrod;
+}
+#combat-controls .combat-control{
+    background-image: url(/modules/fantasy-ui/ui/img/buttonredlight.png);
+    text-align: center;
+    background-position: center !important;
+    background-size: 260px 100%!important;
+    background-repeat: no-repeat;
+}
+/* #endregion*/
+
+/* #region Sidebar Folder and widgets*/
+.sidebar-tab .directory-header .header-search input {
+    font-family: CaslonPro;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    position: relative;
+    height: 24px;
+    top: 7px;
+    padding-top: 3px;
+    background: url(/modules/fantasy-ui/ui/img/parchment-smooth.png) repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-position: initial;
+    box-shadow: inset 0 0 10px #000000;
+    border-image: url(/modules/fantasy-ui/ui/img/chat-controls-border.png) 4 repeat;
+    border-image-width: 4px;
+    border-image-outset: 3px 2px 2px 2px;
+    color: #520000;
+
+}
+.header-search{
+    padding-bottom: 8px;
+}
+.fa-search{
+    color: darkgoldenrod;
+}
+.fa-sort-amount-up{
+    color:darkgoldenrod;
+}
+
+.sidebar-tab .directory-footer button{
+    background-image: url(/modules/fantasy-ui/ui/img/buttongreenlight.png);
+    text-align: center;
+    background-position: center !important;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+    margin-top: -2px;
+    border: 0px solid #b5b3a4;
+    color : white;
+    text-shadow: 2px 2px black ;
+}
+/* #endregion */
+
+/* #region Folders as buttons */
+.sidebar-tab .folder .folder-header {
+    background-image: url(/modules/fantasy-ui/ui/img/buttonbluelight.png) !important;
+    text-align: center;
+    background-position: center !important;
+    background-size: 285px 55px!important;
+    background-repeat: no-repeat !important;
+    padding-top: 15px;
+    background-color: rgba(0,0,0,0) !important;
+    color: white;
+    text-shadow: 2px 2px black !important;
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.sidebar-tab .directory-list .directory.item h3 {
+    text-shadow: 2px 2px black !important;
+    background-color: rgba(0,0,0,0) !important;
+}
+
+li.folder.collapsed > .folder-header h3 {
+    text-shadow: 2px 2px black !important;
+}
+/*.sidebar-tab .directory-list .directory-item #folder-header {
+    background-color: rgba(0, 0, 0, 0);
+}*/
+
+/* #endregion */
+
+/* #region Compendium headers */
+#compendium h3 {
+   /* font-family: CaslonPro;
+    font-weight: 500;
+    font-size: 14px;*/
+    text-align: left;
+    position: relative;
+    height: 24px;
+    top: 7px;
+    padding-top: 3px;
+    background: url(/modules/fantasy-ui/ui/img/parchment-smooth.png) repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-position: initial;
+    box-shadow: inset 0 0 10px #000000;
+    border-image: url(/modules/fantasy-ui/ui/img/chat-controls-border.png) 4 repeat;
+    border-image-width: 4px;
+    border-image-outset: 3px 2px 2px 2px;
+    color: #520000;
+}
+/* #endregion */
+
+/* #region Remove ugly speaker name background colors in Chat window */
+#chat-log .message .message-header .message-sender {
+    background-color: rgba(0,0,0,0) !important;
+}
+/* #endregion */
