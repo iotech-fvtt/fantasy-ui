@@ -4,12 +4,12 @@
   "description": "An updated fantasy-flavored UI for FVTT.",
   "version": "0.0.1",
   "author": "iotech",
-   "scripts": ["fantasyui.js"],
-  "styles": ["fantasyui.css"],
+  "scripts": [ "fantasyui.js" ],
+  "styles": [ "fantasyui.css" ],
   "esmodules": [],
   "packs": [],
-  "url": "https://github.com/stryxin/dnd5edark-foundryvtt",
-    "manifest": "https://raw.githubusercontent.com/stryxin/dnd5edark-foundryvtt/master/module.json",
-    "download": "https://github.com/Stryxin/dnd5edark-foundryvtt/raw/master/dnd5e-dark-mode.zip",
+  "url": "https://github.com/iotech-fvtt/fantasy-ui",
+  "manifest": "https://raw.githubusercontent.com/iotech-fvtt/fantasy-ui/master/module.json",
+  "download": "https://github.com/iotech-fvtt/fantasy-ui/raw/master/fantasy-ui.zip",
   "minimumCoreVersion": "0.4.5"
 }
