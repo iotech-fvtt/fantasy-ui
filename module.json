@@ -2,7 +2,7 @@
   "name": "fantasy-ui",
   "title": "Fantasy UI",
   "description": "An updated fantasy-flavored UI for FVTT.",
-  "version": "0.0.1",
+  "version": "0.1.2",
   "author": "iotech",
   "scripts": [ "fantasyui.js" ],
   "styles": [ "fantasyui.css" ],
@@ -11,5 +11,5 @@
   "url": "https://github.com/iotech-fvtt/fantasy-ui",
   "manifest": "https://raw.githubusercontent.com/iotech-fvtt/fantasy-ui/master/module.json",
   "download": "https://github.com/iotech-fvtt/fantasy-ui/raw/master/fantasy-ui-master.zip",
-  "minimumCoreVersion": "0.4.5"
+  "minimumCoreVersion": "0.6.0"
 }
