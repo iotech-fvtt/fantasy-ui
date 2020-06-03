@@ -97,7 +97,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-fist-raised {
     content: "";
-    background-image: url("/modules/fantasy-ui/ui/img/barbarian_icons_01_t.png") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/Tex_badge_33.png") !important;
     width: 50px !important;
     height: 50px !important;
     display: inline-block !important;
@@ -125,7 +125,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-users {
     content: "";
-    background-image: url("/modules/fantasy-ui/ui/img/zombie_02.png") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/SGI_91.png") !important;
     width: 50px !important;
     height: 50px !important;
     display: inline-block !important;
@@ -373,25 +373,34 @@ i.fa-caret-left::before{
 
 /* #region Folders as buttons */
 .sidebar-tab .folder .folder-header {
-    background-image: url(/modules/fantasy-ui/ui/img/buttonbluelight.png) !important;
+    background-image: url(/modules/fantasy-ui/ui/img/buttonbluelight3.png) !important;
     text-align: center;
     background-position: center !important;
-    background-size: 285px 55px!important;
+    background-size: 100% 55px!important;
     background-repeat: no-repeat !important;
     padding-top: 15px;
     background-color: rgba(0,0,0,0) !important;
     color: white;
     text-shadow: 2px 2px black !important;
-    background-color: rgba(0,0,0,0) !important;
+    
 }
 
 .sidebar-tab .directory-list .directory.item h3 {
     text-shadow: 2px 2px black !important;
     background-color: rgba(0,0,0,0) !important;
+    text-align: left;
 }
 
 li.folder.collapsed > .folder-header h3 {
     text-shadow: 2px 2px black !important;
+}
+#sidebar section.sidebar-directory ol.directory-list li.directory-item.folder header {
+    align-items: baseline;
+    text-align: left;
+    padding-left: 25px;
+}
+.subdirectory .folder {
+    border-left: 2px solid #056e8a !important;
 }
 /*.sidebar-tab .directory-list .directory-item #folder-header {
     background-color: rgba(0, 0, 0, 0);
@@ -401,23 +410,22 @@ li.folder.collapsed > .folder-header h3 {
 
 /* #region Compendium headers */
 #compendium h3 {
-   /* font-family: CaslonPro;
-    font-weight: 500;
-    font-size: 14px;*/
     text-align: left;
     position: relative;
-    height: 24px;
+    height: 55px;
     top: 7px;
-    padding-top: 3px;
-    background: url(/modules/fantasy-ui/ui/img/parchment-smooth.png) repeat;
+    padding-top: 20px;
+    padding-left: 25px;
+    background: url(/modules/fantasy-ui/ui/img/buttonredlight.png) no-repeat;
     background-position-x: 0%;
+    background-size: 100% 55px;
     background-position-y: 0%;
     background-position: initial;
     box-shadow: inset 0 0 10px #000000;
     border-image: url(/modules/fantasy-ui/ui/img/chat-controls-border.png) 4 repeat;
     border-image-width: 4px;
     border-image-outset: 3px 2px 2px 2px;
-    color: #520000;
+    color: #eeede0;
 }
 /* #endregion */
 
