@@ -90,7 +90,19 @@ i.fa-caret-left::before{
     background-position:center !important;
     background-size:cover !important;
 }
-
+#sidebar-tabs {
+    height: 20px;
+}
+#sidebar-tabs > .item {
+    line-height: 0px;
+    height: 30px;
+}
+#sidebar-tabs > .item.active {
+    color: #FFF;
+    border: 1px solid red;
+    
+    box-shadow: 0 0 6px inset #ff6400;
+}
 #sidebar #sidebar-tabs i.fa-comments::before {
     content: "";
 }
