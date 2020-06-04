@@ -8,7 +8,7 @@
     position: fixed;
     right: 5px;
     top: 5px;
-    width: 320px;
+    width: 370px;
     height: 99vh;
     overflow: hidden;
     margin: 0;
@@ -27,14 +27,14 @@
 }
 
 #sidebar.collapsed {
-    width: 115px !important;
-    height: 610px !important;
-    border: 30px solid transparent;
+    width: 75px !important;
+    height: 350px !important;
+    border: 15px solid transparent;
     border-image-source: url(/modules/fantasy-ui/ui/img/panel1.png);
-    border-image-slice: 30 fill;
+    border-image-slice: 35 fill;
     /* display: inline-block !important; */
     background-position: center !important;
-    background-size: 300px 100%!important;
+    background-size: 100% 100%!important;
     background-repeat: no-repeat;
 }
 
@@ -84,8 +84,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-comments {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/speechbubble.png") !important;
-    width: 50px !important;
-    height: 50px !important;
+    width: 25px !important;
+    height: 25px !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -98,8 +98,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-fist-raised {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/Tex_badge_33.png") !important;
-    width: 50px !important;
-    height: 50px !important;
+    width: 25px !important;
+    height: 25px !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -112,8 +112,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-map {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/pirates_04_t.png") !important;
-    width: 50px !important;
-    height: 50px !important;
+    width: 25px !important;
+    height: 25px !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -126,8 +126,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-users {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/SGI_91.png") !important;
-    width: 50px !important;
-    height: 50px !important;
+    width: 25px !important;
+    height: 25px !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -140,8 +140,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-suitcase {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/chest_t_03.png") !important;
-    width: 50px !important;
-    height: 50px !important;
+    width: 25px !important;
+    height: 25px !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -154,8 +154,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-book-open {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/scrollsandbooks_102_t.png") !important;
-    width: 50px !important;
-    height: 50px !important;
+    width: 25px !important;
+    height: 25px !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -168,8 +168,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-th-list {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/tabletopbadges_50.png") !important;
-    width: 50px !important;
-    height: 50px !important;
+    width: 25px !important;
+    height: 25px !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -182,8 +182,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-music {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/mi_t_03.png") !important;
-    width: 50px !important;
-    height: 50px !important;
+    width: 25px !important;
+    height: 25px !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -196,8 +196,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-atlas {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/scrollsandbooks_24_t.png") !important;
-    width: 50px !important;
-    height: 50px !important;
+    width: 25px !important;
+    height: 25px !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -210,8 +210,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-cogs {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/en_craft_35.png") !important;
-    width: 50px !important;
-    height: 50px !important;
+    width: 25px !important;
+    height: 25px !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
