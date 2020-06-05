@@ -28,7 +28,8 @@
 
 #sidebar.collapsed {
     width: 75px !important;
-    height: 350px !important;
+    height: 375px !important;
+    padding-left: 5px;
     border: 15px solid transparent;
     border-image-source: url(/modules/fantasy-ui/ui/img/panel1.png);
     border-image-slice: 35 fill;
@@ -440,10 +441,11 @@ li.folder.collapsed > .folder-header h3 {
     color: #eeede0;
     text-shadow: 2px 2px 4px #000000;
 }
-/* #endregion */
 #compendium ol.compendium-list {
     padding-left: 25px;;
 }
+/* #endregion */
+
 /* #region Remove speaker name background colors in Chat window */
 #chat-log .message .message-header .message-sender {
     background-color: rgba(0,0,0,0) !important;
