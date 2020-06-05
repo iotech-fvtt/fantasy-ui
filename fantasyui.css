@@ -95,7 +95,7 @@ i.fa-caret-left::before{
 }
 #sidebar-tabs > .item {
     line-height: 0px;
-    height: 30px;
+    height: 32px;
 }
 #sidebar-tabs > .item.active {
     color: #FFF;
@@ -427,7 +427,7 @@ li.folder.collapsed > .folder-header h3 {
     height: 55px;
     top: 7px;
     padding-top: 20px;
-    padding-left: 25px;
+    padding-left: 30px;
     background: url(/modules/fantasy-ui/ui/img/buttonredlight.png) no-repeat;
     background-position-x: 0%;
     background-size: 100% 55px;
@@ -438,10 +438,13 @@ li.folder.collapsed > .folder-header h3 {
     border-image-width: 4px;
     border-image-outset: 3px 2px 2px 2px;
     color: #eeede0;
+    text-shadow: 2px 2px 4px #000000;
 }
 /* #endregion */
-
-/* #region Remove ugly speaker name background colors in Chat window */
+#compendium ol.compendium-list {
+    padding-left: 25px;;
+}
+/* #region Remove speaker name background colors in Chat window */
 #chat-log .message .message-header .message-sender {
     background-color: rgba(0,0,0,0) !important;
 }
