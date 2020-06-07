@@ -124,7 +124,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-map {
     content: "";
-    background-image: url("/modules/fantasy-ui/ui/img/pirates_04_t.png") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/pirates_04_t.PNG") !important;
     width: 25px !important;
     height: 25px !important;
     display: inline-block !important;
@@ -166,7 +166,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-book-open {
     content: "";
-    background-image: url("/modules/fantasy-ui/ui/img/scrollsandbooks_102_t.png") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/ScrollsAndBooks_102_t.PNG") !important;
     width: 25px !important;
     height: 25px !important;
     display: inline-block !important;
@@ -180,7 +180,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-th-list {
     content: "";
-    background-image: url("/modules/fantasy-ui/ui/img/tabletopbadges_50.png") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/TabletopBadges_50.PNG") !important;
     width: 25px !important;
     height: 25px !important;
     display: inline-block !important;
@@ -208,7 +208,7 @@ i.fa-caret-left::before{
 
 #sidebar #sidebar-tabs i.fa-atlas {
     content: "";
-    background-image: url("/modules/fantasy-ui/ui/img/scrollsandbooks_24_t.png") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/ScrollsAndBooks_24_t.PNG") !important;
     width: 25px !important;
     height: 25px !important;
     display: inline-block !important;
