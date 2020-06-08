@@ -389,13 +389,14 @@ i.fa-caret-left::before{
 
 /* #region Folders as buttons */
 .sidebar-tab .folder .folder-header {
-    background-image: url(/modules/fantasy-ui/ui/img/buttonbluelight3.png) !important;
+    background-image: url(/modules/fantasy-ui/ui/img/buttonlight3.png)  !important;
     text-align: center;
     background-position: center !important;
     background-size: 100% 55px!important;
     background-repeat: no-repeat !important;
     padding-top: 15px;
-    background-color: rgba(0,0,0,0) !important;
+    padding-bottom: 10px;
+    /*background-color: rgba(0,0,0,0) !important;*/
     color: white;
     text-shadow: 2px 2px black !important;
     
@@ -403,9 +404,10 @@ i.fa-caret-left::before{
 
 .sidebar-tab .directory-list .directory.item h3 {
     text-shadow: 2px 2px black !important;
-    background-color: rgba(0,0,0,0) !important;
+    /*background-color: rgba(0,0,0,0) !important;*/
     text-align: left;
 }
+
 
 li.folder.collapsed > .folder-header h3 {
     text-shadow: 2px 2px black !important;
@@ -416,11 +418,8 @@ li.folder.collapsed > .folder-header h3 {
     padding-left: 25px;
 }
 .subdirectory .folder {
-    border-left: 2px solid #056e8a !important;
+    border-left: 2px solid #585858 !important;
 }
-/*.sidebar-tab .directory-list .directory-item #folder-header {
-    background-color: rgba(0, 0, 0, 0);
-}*/
 
 /* #endregion */
 
@@ -452,5 +451,11 @@ li.folder.collapsed > .folder-header h3 {
 /* #region Remove speaker name background colors in Chat window */
 #chat-log .message .message-header .message-sender {
     background-color: rgba(0,0,0,0) !important;
+}
+/* #endregion */
+
+/* #region Fix so as not to bigfoot on VTTA's tag system */
+#sidebar section > ol.directory-list > li header > span.vtta-folder-label {
+    text-shadow: 0px 0px 0px black !important;
 }
 /* #endregion */
