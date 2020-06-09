@@ -459,3 +459,23 @@ li.folder.collapsed > .folder-header h3 {
     text-shadow: 0px 0px 0px black !important;
 }
 /* #endregion */
+
+/* #region Chat log differentiate public roll from private or blind.
+ Private uses class whisper, blind uses class blind AND whisper, Self Roll
+ uses class whisper (identical to Private Roll for CSS) */
+#chat-log .message.whisper {
+
+    font-style: italic;
+}
+
+#chat-log .message.whisper .message-header::before{
+
+    content: "(Private Roll) ";
+}
+
+
+#chat-log .message.blind .message-header::before{
+
+    content: "(Blind Roll) " !important;
+}
+/* #endregion */
