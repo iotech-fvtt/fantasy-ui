@@ -468,14 +468,16 @@ li.folder.collapsed > .folder-header h3 {
     font-style: italic;
 }
 
-#chat-log .message.whisper .message-header::before{
-
-    content: "(Private Roll) ";
+#chat-log .message.whisper .message-header .message-metadata::before{
+    color: #585858;
+    content: " (Private Roll) ";
+    float: left;
 }
 
 
-#chat-log .message.blind .message-header::before{
-
-    content: "(Blind Roll) " !important;
+#chat-log .message.blind .message-header .message-metadata::before{
+    color: #585858;
+    content: " (Blind Roll) " !important;
+    float: left;
 }
 /* #endregion */
