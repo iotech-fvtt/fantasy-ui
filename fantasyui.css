@@ -8,8 +8,8 @@
     position: fixed;
     right: 5px;
     top: 5px;
-    /* 370 */
-    width: 400px !important;
+    /* 400 */
+    width: 350px !important;
     height: 99vh;
     overflow: hidden;
     margin: 0;
@@ -95,7 +95,7 @@ i.fa-caret-left::before{
     background-size:cover !important;
 }
 #sidebar-tabs {
-    height: 20px;
+    height: 64px;
 }
 #sidebar-tabs > .item {
     line-height: 0px;
@@ -460,7 +460,8 @@ li.folder.collapsed > .folder-header h3 {
 }
 /* #endregion */
 
-/* #region Chat log differentiate public roll from private or blind.
+/* #region Chat log */
+/* differentiate public roll from private or blind.
  Private uses class whisper, blind uses class blind AND whisper, Self Roll
  uses class whisper (identical to Private Roll for CSS) */
 #chat-log .message.whisper {
