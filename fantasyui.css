@@ -8,16 +8,13 @@
     position: fixed;
     right: 5px;
     top: 5px;
-    /* 400 */
     width: 350px !important;
     height: 99vh;
     overflow: hidden;
     margin: 0;
-    /* padding: 30px 0 0 10px; */
     border: 30px solid transparent;
     border-image-source: url(/modules/fantasy-ui/ui/img/panel1.png);
     border-image-slice: 30 fill;
-    /* display: inline-block !important; */
     background-position: center !important;
     background-size: 300px 100%!important;
     background-repeat: no-repeat;
@@ -29,9 +26,6 @@
 
 #sidebar.collapsed {
     width: 75px !important;
-    /* If you use Progress Clocks, uncomment the following */
-    /* height: 410px !important; */
-    /* If you use Progress Clocks, 375 comment out the following line */
     height: 410px !important;
     padding-left: 5px;
     border: 15px solid transparent;
@@ -252,9 +246,6 @@ i.fa-caret-left::before{
     background-image: url(/modules/fantasy-ui/ui/img/parchment-smooth.png) !important;
 }
 
-.polyglot-lang-select{
-    color: darkgoldenrod !important;
-}
 .polyglot-lang-select select {
     font-family: CaslonPro;
     font-weight: 500;
@@ -283,18 +274,6 @@ i.fa-caret-left::before{
 #chat-controls .control-buttons{
     color: white;
 }
-.fa-dice-d20{
-    color: darkgoldenrod;
-}
-#RTB-button {
-    color: darkgoldenrod;
-}
-.fa-save{
-    color: darkgoldenrod;
-}
-.fa-trash{
-    color: darkgoldenrod;
-}
 
 #sidebar .sidebar-tab #chat-controls div.roll-type-select select {
     font-family: CaslonPro;
@@ -315,24 +294,7 @@ i.fa-caret-left::before{
     border-image-outset: 3px 2px 2px 2px;
     color: #520000;
 }
-/* #endregion */
 
-/* #region Combat Tab*/
-.fa-plus{
-    color: darkgoldenrod;
-}
-.fa-users-cog{
-    color: darkgoldenrod;
-}
-.fa-undo{
-    color: darkgoldenrod;
-}
-.fa-users {
-    color: darkgoldenrod;
-}
-.fa-cog{
-    color: darkgoldenrod;
-}
 #combat-controls .combat-control{
     background-image: url(/modules/fantasy-ui/ui/img/buttonredlight.png);
     text-align: center;
@@ -390,31 +352,24 @@ i.fa-caret-left::before{
 /* #region Folders as buttons */
 .sidebar-tab .folder .folder-header {
     background-image: url(/modules/fantasy-ui/ui/img/buttonlight3.png)  !important;
-    text-align: center;
+    text-align: left !important;
     background-position: center !important;
     background-size: 100% 55px!important;
     background-repeat: no-repeat !important;
     padding-top: 15px;
     padding-bottom: 10px;
-    /*background-color: rgba(0,0,0,0) !important;*/
     color: white;
-    text-shadow: 2px 2px black !important;
-    
+    padding-left: 25px;
 }
 
 .sidebar-tab .directory-list .directory.item h3 {
-    text-shadow: 2px 2px black !important;
-    /*background-color: rgba(0,0,0,0) !important;*/
-    text-align: left;
+    text-align: left !important;
+    padding-left: 25px;
 }
 
-
-li.folder.collapsed > .folder-header h3 {
-    text-shadow: 2px 2px black !important;
-}
 #sidebar section.sidebar-directory ol.directory-list li.directory-item.folder header {
     align-items: baseline;
-    text-align: left;
+    text-align: left !important;
     padding-left: 25px;
 }
 .subdirectory .folder {
