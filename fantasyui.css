@@ -8,7 +8,7 @@
     position: fixed;
     right: 5px;
     top: 5px;
-    width: 350px !important;
+    width: 360px !important;
     height: 99vh;
     overflow: hidden;
     margin: 0;
@@ -42,6 +42,7 @@
 
 #sidebar #sidebar-tabs > .item {
     line-height: 0px;
+    padding: 2px;
 }
 
 i.fa-caret-right::before{
@@ -51,8 +52,8 @@ i.fa-caret-right::before{
 
 .fa-caret-right{
     background-image: url("/modules/fantasy-ui/ui/img/inout.png") !important;
-    width: 40px;
-    height: 30px;
+    width: 100%;
+    height: 100%;
     display: inline-block !important;
     background-position:center !important;
     background-size:20px 15px !important;
@@ -68,8 +69,8 @@ i.fa-caret-left::before{
 
 .fa-caret-left{
     background-image: url("/modules/fantasy-ui/ui/img/inout.png") !important;
-    width: 40px;
-    height: 30px;
+    width: 100%;
+    height: 100%;
     display: inline-block !important;
     background-position:center !important;
     background-size:20px 15px !important;
@@ -82,8 +83,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-comments {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/speechbubble.png") !important;
-    width: 25px !important;
-    height: 25px !important;
+    width: 100% !important;
+    height: 100% !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -108,8 +109,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-fist-raised {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/Tex_badge_33.png") !important;
-    width: 25px !important;
-    height: 25px !important;
+    width: 100% !important;
+    height: 100% !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -122,8 +123,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-map {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/pirates_04_t.PNG") !important;
-    width: 25px !important;
-    height: 25px !important;
+    width: 100% !important;
+    height: 100% !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -136,8 +137,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-users {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/SGI_91.png") !important;
-    width: 25px !important;
-    height: 25px !important;
+    width: 100% !important;
+    height: 100% !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -150,8 +151,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-suitcase {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/chest_t_03.png") !important;
-    width: 25px !important;
-    height: 25px !important;
+    width: 100% !important;
+    height: 100% !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -164,8 +165,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-book-open {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/ScrollsAndBooks_102_t.PNG") !important;
-    width: 25px !important;
-    height: 25px !important;
+    width: 100% !important;
+    height: 100% !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -178,8 +179,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-th-list {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/TabletopBadges_50.PNG") !important;
-    width: 25px !important;
-    height: 25px !important;
+    width: 100% !important;
+    height: 100% !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -192,8 +193,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-music {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/mi_t_03.png") !important;
-    width: 25px !important;
-    height: 25px !important;
+    width: 100% !important;
+    height: 100% !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -206,8 +207,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-atlas {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/ScrollsAndBooks_24_t.PNG") !important;
-    width: 25px !important;
-    height: 25px !important;
+    width: 100% !important;
+    height: 100% !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -220,8 +221,8 @@ i.fa-caret-left::before{
 #sidebar #sidebar-tabs i.fa-cogs {
     content: "";
     background-image: url("/modules/fantasy-ui/ui/img/en_craft_35.png") !important;
-    width: 25px !important;
-    height: 25px !important;
+    width: 100% !important;
+    height: 100% !important;
     display: inline-block !important;
     background-position:center !important;
     background-size:cover !important;
@@ -242,9 +243,9 @@ i.fa-caret-left::before{
     border-bottom-color: darkred;
     text-decoration: underline;
 }
-#chat-message{
+/* #chat-message{
     background-image: url(/modules/fantasy-ui/ui/img/parchment-smooth.png) !important;
-}
+} */
 
 .polyglot-lang-select select {
     font-family: CaslonPro;
@@ -267,7 +268,7 @@ i.fa-caret-left::before{
     margin-top: -10px;
 }
 .roll-type-select{
-    color: white !important;
+    color: black !important;
     text-align: left;
     margin-bottom: 20px;
 }
@@ -305,11 +306,16 @@ i.fa-caret-left::before{
 /* #endregion*/
 
 /* #region Sidebar Folder and widgets*/
+
+
+.sidebar-tab .directory-header .header-search {
+    align-items: baseline;
+}
+
 .sidebar-tab .directory-header .header-search input {
     font-family: CaslonPro;
     font-weight: 500;
     font-size: 14px;
-    text-align: left;
     position: relative;
     height: 24px;
     top: 7px;
@@ -318,13 +324,25 @@ i.fa-caret-left::before{
     background-position-x: 0%;
     background-position-y: 0%;
     background-position: initial;
-    box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;    
     border-image: url(/modules/fantasy-ui/ui/img/chat-controls-border.png) 4 repeat;
     border-image-width: 4px;
     border-image-outset: 3px 2px 2px 2px;
     color: #520000;
 
 }
+.sidebar-tab .directory-header button {
+    background-image: url(/modules/fantasy-ui/ui/img/buttongreenlight.png);
+    text-align: center;
+    background-position: center !important;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    min-height: 32px;
+    border: 0px solid #b5b3a4;
+    color : white;
+    text-shadow: 2px 2px black ;
+}
+
 .header-search{
     padding-bottom: 8px;
 }
@@ -341,8 +359,6 @@ i.fa-caret-left::before{
     background-position: center !important;
     background-size: 100% 100% !important;
     background-repeat: no-repeat;
-    padding-top: 5px;
-    margin-top: -2px;
     border: 0px solid #b5b3a4;
     color : white;
     text-shadow: 2px 2px black ;
@@ -403,6 +419,18 @@ i.fa-caret-left::before{
 }
 /* #endregion */
 
+#settings button {
+   background-image: url(/modules/fantasy-ui/ui/img/buttonbluelight2.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   border: 1px solid black;
+   color: white;
+   font-size: 16px;
+   height: 73px;
+   width: 255px;
+}
+
+
 /* #region Remove speaker name background colors in Chat window */
 #chat-log .message .message-header .message-sender {
     background-color: rgba(0,0,0,0) !important;
@@ -420,11 +448,22 @@ i.fa-caret-left::before{
  Private uses class whisper, blind uses class blind AND whisper, Self Roll
  uses class whisper (identical to Private Roll for CSS) */
 #chat-log .message.whisper {
-
     font-style: italic;
 }
 
-#chat-log .message.whisper .message-header .message-metadata::before{
+#chat-log .message.whisper {
+    background-image: url("/modules/fantasy-ui/ui/img/parchment-hidden.png") !important;
+}
+
+/* #chat-log .message.whisper .message-header {
+    background-image: url("/modules/fantasy-ui/ui/img/parchment-hidden.png") !important;
+} */
+
+#chat-log .message.whisper .message-content {
+    background-image: url("/modules/fantasy-ui/ui/img/parchment-hidden.png") !important;
+}
+
+#chat-log .message.whisper .message-header .message-metadata::before{    
     color: #585858;
     content: " (Private Roll) ";
     float: left;
@@ -432,6 +471,7 @@ i.fa-caret-left::before{
 
 
 #chat-log .message.blind .message-header .message-metadata::before{
+    background-image: url("/modules/fantasy-ui/ui/img/parchment-hidden.png") !important;
     color: #585858;
     content: " (Blind Roll) " !important;
     float: left;

@@ -2,7 +2,7 @@
   "name": "fantasy-ui",
   "title": "Fantasy UI",
   "description": "An updated fantasy-flavored UI for FVTT. Uses icons from Rexard.",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "author": "iotech",
   "scripts": [ "fantasyui.js" ],
   "styles": [ "fantasyui.css" ],
@@ -12,5 +12,5 @@
   "manifest": "https://raw.githubusercontent.com/iotech-fvtt/fantasy-ui/master/module.json",
   "download": "https://github.com/iotech-fvtt/fantasy-ui/releases/download/0.1.16/fantasy-ui.zip",
   "minimumCoreVersion": "0.5.5",
-  "compatibleCoreVersion": "0.6.2"
+  "compatibleCoreVersion": "0.7.5"
 }
