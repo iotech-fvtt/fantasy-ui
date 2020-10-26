@@ -452,17 +452,17 @@ i.fa-caret-left::before{
 }
 
 #chat-log .message.whisper {
-    /*background-image: url("/modules/fantasy-ui/ui/img/parchment-hidden.png") !important;*/
+    background-image: url("/modules/fantasy-ui/ui/img/parchment-hidden2.png") !important;
     
 }
 
 /* #chat-log .message.whisper .message-header {
-    background-image: url("/modules/fantasy-ui/ui/img/parchment-hidden.png") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/parchment-hidden2.png") !important;
 } */
 
 #chat-log .message.whisper .message-content {
-    /*background-image: url("/modules/fantasy-ui/ui/img/parchment-hidden.png")  ;*/
-    background-color: seashell !important;
+    background-image: url("/modules/fantasy-ui/ui/img/parchment-hidden2.png")  ;
+    /*background-color: seashell !important;*/
 }
 
 #chat-log .message.whisper .message-header .message-metadata::before{    
@@ -474,7 +474,7 @@ i.fa-caret-left::before{
 
 
 #chat-log .message.blind .message-header .message-metadata::before{
-   /* background-image: url("/modules/fantasy-ui/ui/img/parchment-hidden.png") !important;*/
+    background-image: url("/modules/fantasy-ui/ui/img/parchment-hidden2.png") !important;
     color: darkred;
     content: " (Blind Roll) " !important;
     float: left;
