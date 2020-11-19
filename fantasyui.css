@@ -407,11 +407,9 @@ i.fa-caret-left::before{
     background-size: 100% 55px;
     background-position-y: 0%;
     background-position: initial;
-    box-shadow: inset 0 0 10px #000000;
     border-image: url(/modules/fantasy-ui/ui/img/chat-controls-border.png) 4 repeat;
     border-image-width: 4px;
     border-image-outset: 3px 2px 2px 2px;
-    color: #eeede0;
     text-shadow: 2px 2px 4px #000000;
 }
 #compendium ol.compendium-list {
