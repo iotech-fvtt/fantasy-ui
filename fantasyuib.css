@@ -1,0 +1,730 @@
+/* #region General UI */
+
+
+/* #region Scene Control (left side) Buttons */
+
+.scene-control {
+    background-image: url("/modules/fantasy-ui-big/ui/img/scene-control.webp") !important;
+    background-size: 100% 100% !important;
+    color: white !important;
+}
+
+.control-tool {
+    background-image: url("/modules/fantasy-ui-big/ui/img/scene-control.webp") !important;
+    background-size: 100% 100% !important;
+    color: white !important;
+}
+
+#controls .scene-control,
+#controls .control-tool {
+    font-size: 14px;
+    ;
+}
+
+/* #endregion */
+
+
+/* #region Scene Navigation */
+#navigation #nav-toggle {
+    background-image: url("/modules/fantasy-ui-big/ui/img/scene-control.webp");
+    background-size: 100% 100% !important;
+}
+
+#navigation #scene-list .scene.view,
+#navigation #scene-list .scene.context {
+    background-image: url("/modules/fantasy-ui-big/ui/img/scene-control.webp") !important;
+    background-size: 110% 100% !important;
+    color: white !important;
+    background: left;
+    background-position: center;
+}
+
+#navigation #scene-list .scene.gm {
+    background-image: url("/modules/fantasy-ui-big/ui/img/scene-control.webp") !important;
+    background-size: 110% 100% !important;
+    color: white !important;
+    background: left;
+    background-position: center;
+}
+
+
+/* #endregion */
+
+
+/* #endregion */
+
+
+/* #region Sidebar*/
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: fixed;
+    right: 5px;
+    top: 5px;
+    width: 320px !important;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    border: 25px solid transparent;
+    border-image-source: url("/modules/fantasy-ui-big/ui/img/panel1.webp");
+    border-image-slice: 20 fill;
+    background-position: center !important;
+    background-size: 320px 100%!important;
+    background-repeat: no-repeat;
+    padding: 0px;
+    ;
+}
+
+.collapse::before {
+    content: "";
+}
+
+#sidebar.collapsed {
+    width: 90px !important;
+    height: 610px !important;
+    padding-left: 5px;
+    border: 15px solid transparent;
+    border-image-source: url("/modules/fantasy-ui-big/ui/img/panel1.webp");
+    border-image-slice: 35 fill;
+    background-position: center !important;
+    background-size: 100% 100%!important;
+    background-repeat: no-repeat;
+    background-color: #343434;
+}
+
+#sidebar.collapsed #sidebar-tabs {
+    height: 100%;
+}
+
+#sidebar-tabs {
+    text-align: center;
+}
+
+#sidebar #sidebar-tabs>.item {
+    line-height: 0px;
+}
+
+i.fa-caret-right::before {
+    content: "";
+}
+
+i.fa-caret-left::before {
+    content: "";
+}
+
+i.fa-caret-up::before {
+    content: "";
+}
+
+i.fa-caret-down::before {
+    content: "";
+}
+
+.fa-caret-right {
+    background-image: url("/modules/fantasy-ui-big/ui/img/right.webp") !important;
+    width: 40px;
+    height: 30px;
+    display: inline-block !important;
+    background-position: center !important;
+    background-size: 20px 15px !important;
+    background-repeat: no-repeat;
+    content: "";
+    text-align: center;
+}
+
+.fa-caret-left {
+    background-image: url("/modules/fantasy-ui-big/ui/img/left.webp") !important;
+    width: 40px;
+    height: 30px;
+    display: inline-block !important;
+    background-position: center !important;
+    background-size: 20px 15px !important;
+    background-repeat: no-repeat;
+    content: "";
+    text-align: center;
+    vertical-align: top;
+}
+
+.fa-caret-up {
+    background-image: url("/modules/fantasy-ui-big/ui/img/up.webp") !important;
+    width: 40px;
+    height: 30px;
+    display: inline-block !important;
+    background-position: center !important;
+    background-size: 20px 15px !important;
+    background-repeat: no-repeat;
+    content: "";
+    text-align: center;
+    vertical-align: top;
+}
+
+.fa-caret-down {
+    background-image: url("/modules/fantasy-ui-big/ui/img/down.webp") !important;
+    width: 40px;
+    height: 30px;
+    display: inline-block !important;
+    background-position: center !important;
+    background-size: 20px 15px !important;
+    background-repeat: no-repeat;
+    content: "";
+    text-align: center;
+    vertical-align: top;
+}
+
+#sidebar #sidebar-tabs i.fa-comments {
+    content: "";
+    background-image: url("/modules/fantasy-ui-big/ui/img/speechbubble.webp") !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: inline-block !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#sidebar-tabs {
+    height: 135px;
+    /*border: 2px solid black;*/
+    box-shadow: 0 0 6px inset rgba(0, 0, 0, 0.137);
+    background-color: none;
+/*    background-color: #343434;*/
+    padding-bottom: 3px;
+    flex-wrap: wrap !important;
+}
+
+    
+#sidebar-tabs>.item {
+    line-height: 0px;
+    height: 53px;
+}
+
+#sidebar-tabs>.item.active {
+    color: #FFF;
+    border: 1px solid rgb(82, 70, 1);
+    box-shadow: 0 0 6px inset #686102;
+}
+
+#sidebar.collapsed #sidebar-tabs>.item.active {
+    border-bottom: 1px solid rgb(82, 70, 1);
+}
+
+#sidebar #sidebar-tabs i.fa-comments::before {
+    content: "";
+}
+
+#sidebar #sidebar-tabs i.fa-fist-raised {
+    content: "";
+    background-image: url("/modules/fantasy-ui-big/ui/img/t_f_03.webp") !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: inline-block !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-fist-raised::before {
+    content: "";
+}
+
+#sidebar #sidebar-tabs i.fa-map {
+    content: "";
+    background-image: url("/modules/fantasy-ui-big/ui/img/pirates_04_t.webp") !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: inline-block !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-map::before {
+    content: "";
+}
+
+#sidebar #sidebar-tabs i.fa-users {
+    content: "";
+    background-image: url("/modules/fantasy-ui-big/ui/img/actors_color.webp") !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: inline-block !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-users::before {
+    content: "";
+}
+
+#sidebar #sidebar-tabs i.fa-suitcase {
+    content: "";
+    background-image: url("/modules/fantasy-ui-big/ui/img/BagsAndBoxes_110_t.webp") !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: inline-block !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-suitcase::before {
+    content: "";
+}
+
+#sidebar #sidebar-tabs i.fa-book-open {
+    content: "";
+    background-image: url("/modules/fantasy-ui-big/ui/img/scroll_06_t.webp") !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: inline-block !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-book-open::before {
+    content: "";
+}
+.sidebar-tab .directory-list {
+    font-size: x-small;
+}
+#sidebar #sidebar-tabs i.fa-th-list {
+    content: "";
+    background-image: url("/modules/fantasy-ui-big/ui/img/TabletopBadges_50.webp") !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: inline-block !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-th-list::before {
+    content: "";
+}
+
+#sidebar #sidebar-tabs i.fa-id-badge {
+    content: "";
+    background-image: url("/modules/fantasy-ui-big/ui/img/TrophyIcons_45_t.webp") !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: inline-block !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-id-badge::before {
+    content: "";
+}
+
+#sidebar #sidebar-tabs i.fa-music {
+    content: "";
+    background-image: url("/modules/fantasy-ui-big/ui/img/mi_t_03.webp") !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: inline-block !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-music::before {
+    content: "";
+}
+
+#sidebar #sidebar-tabs i.fa-code {
+    content: "";
+    background-image: url("/modules/fantasy-ui-big/ui/img/code.webp") !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: inline-block !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-code::before {
+    content: "";
+}
+
+#sidebar #sidebar-tabs i.fa-atlas {
+    content: "";
+    background-image: url("/modules/fantasy-ui-big/ui/img/book_11_t.webp") !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: inline-block !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-atlas::before {
+    content: "";
+}
+
+#sidebar #sidebar-tabs i.fa-cogs {
+    content: "";
+    background-image: url("/modules/fantasy-ui-big/ui/img/en_craft_35.webp") !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: inline-block !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+#sidebar #sidebar-tabs i.fa-cogs::before {
+    content: "";
+}
+
+
+/* #endregion */
+
+
+/* #region Chat Tab*/
+
+.message {
+    background-image: url("/modules/fantasy-ui-big/ui/img/parchment-smooth.webp") !important;
+}
+
+.message-sender {
+    color: darkred;
+    font-weight: bold;
+    border-bottom-color: darkred;
+    text-decoration: underline;
+}
+
+#chat-message {
+    background-image: url("/modules/fantasy-ui-big/ui/img/parchment-smooth.webp") !important;
+}
+
+.polyglot-lang-select select {
+    font-family: CaslonPro;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    position: relative;
+    height: 24px;
+    top: 7px;
+    padding-top: 0px;
+    background: url("/modules/fantasy-ui-big/ui/img/parchment-smooth.webp") repeat !important;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-position: initial;
+    box-shadow: inset 0 0 10px #000000;
+    border-image: url("/modules/fantasy-ui-big/ui/img/chat-controls-border.webp") 4 repeat;
+    border-image-width: 4px;
+    border-image-outset: 3px 2px 2px 2px;
+    color: #520000;
+    margin-top: -10px;
+}
+
+#chat-controls .roll-type-select {
+    color: white !important;
+    text-align: left;
+    margin-bottom: 20px;
+    background-color: #000000;
+}
+
+#chat-controls .control-buttons {
+    color: white;
+}
+
+#sidebar .sidebar-tab #chat-controls div.roll-type-select select {
+    font-family: CaslonPro;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    position: relative;
+    height: 24px;
+    top: 7px;
+    padding-top: 3px;
+    background: url("/modules/fantasy-ui-big/ui/img/parchment-smooth.webp") repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-position: initial;
+    box-shadow: inset 0 0 10px #000000;
+    border-image: url("/modules/fantasy-ui-big/ui/img/chat-controls-border.webp") 4 repeat;
+    border-image-width: 4px;
+    border-image-outset: 3px 2px 2px 2px;
+    color: #520000;
+}
+
+#combat-controls .combat-control {
+    background-image: url("/modules/fantasy-ui-big/ui/img/buttonredlight.webp");
+    text-align: center;
+    background-position: center !important;
+    background-size: 260px 100%!important;
+    background-repeat: no-repeat;
+}
+
+
+/* #endregion*/
+
+
+/* #region Sidebar Folder and widgets*/
+
+.sidebar-tab .directory-header .header-search input {
+    font-family: CaslonPro;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    position: relative;
+    height: 24px;
+    top: 7px;
+    padding-top: 3px;
+    background: url("/modules/fantasy-ui-big/ui/img/parchment-smooth.webp") repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-position: initial;
+    box-shadow: inset 0 0 10px #000000;
+    border-image: url("/modules/fantasy-ui-big/ui/img/chat-controls-border.webp") 4 repeat;
+    border-image-width: 4px;
+    border-image-outset: 3px 2px 2px 2px;
+    color: #520000;
+}
+
+.header-search {
+    padding-bottom: 8px;
+}
+
+.fa-search {
+    color: darkgoldenrod;
+}
+
+.fa-sort-amount-up {
+    color: darkgoldenrod;
+}
+
+.sidebar-tab .directory-footer button {
+    background-image: url("/modules/fantasy-ui-big/ui/img/buttongreenlight.webp");
+    text-align: center;
+    background-position: center !important;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+    margin-top: 5px;
+    border: 0px solid #b5b3a4;
+    color: white;
+    width: 100%;
+    height: 35px !important;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: auto;
+    text-shadow: 2px 2px black;
+}
+
+.create-entity button::after {
+    content: "+ Entry";
+}
+
+
+/* #endregion */
+
+
+/* #region Folders as buttons */
+
+.sidebar-tab .folder .folder-header {
+    background-image: url("/modules/fantasy-ui-big/ui/img/buttonlight3.webp") !important;
+    text-align: left !important;
+    background-position: center !important;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 35px !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 1em;
+    padding-left: 35px !important;
+    margin-right: 0px !important;
+    text-shadow: 2px 2px black;
+}
+
+.sidebar-tab .directory-list .directory.item h3 {
+    text-align: left !important;
+    padding-left: 25px;
+    flex: unset;
+}
+
+.sidebar-tab .directory-list .directory-item h3,
+.sidebar-tab .directory-list .directory-item h4 {
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    flex: unset;
+}
+
+li.folder>.folder-header {
+    background: transparent;
+}
+
+#sidebar section.sidebar-directory ol.directory-list li.directory-item.folder header {
+    align-items: baseline;
+    text-align: left !important;
+    padding-left: 25px;
+}
+
+.subdirectory .folder {
+    border-left: 2px solid #585858 !important;
+}
+
+li.folder>.folder-header .create-folder {
+    /*flex: 0 0 35px;*/
+    text-align: right;
+    color: #CCC;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+li.folder>.folder-header .create-entity {
+    /*flex: 0 0 35px;*/
+    flex: unset;
+    text-align: right;
+    color: #CCC;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+
+/* #endregion */
+
+
+/* #region Compendium headers */
+
+#compendium h3 {
+    text-align: left;
+    position: relative;
+    height: 35px !important;
+    top: 7px;
+    padding-top: 10px;
+    padding-left: 45px;
+    /*background-image: url("/modules/fantasy-ui-big/ui/img/buttonlight3.webp") !important;*/
+    background-position-x: 0%;
+    background-size: 100% 100% !important;
+    background-position-y: 0%;
+    background-position: initial;
+
+    color: #eeede0;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#compendium ol.compendium-list {
+    padding-left: 25px;
+    ;
+}
+
+
+/* #endregion */
+
+
+/* #region Remove speaker name background colors in Chat window */
+
+#chat-log .message .message-header .message-sender {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+
+/* #endregion */
+
+
+/* #region Fix so as not to bigfoot on VTTA's tag system */
+
+#sidebar section>ol.directory-list>li header>span.vtta-folder-label {
+    text-shadow: 0px 0px 0px black !important;
+}
+
+
+/* #endregion */
+
+
+/* #region Chat log */
+
+
+/* differentiate public roll from big or blind.
+ big uses class whisper, blind uses class blind AND whisper, Self Roll
+ uses class whisper (identical to big Roll for CSS) */
+
+#chat-log .message.whisper {
+    font-style: italic;
+}
+
+#chat-log .message.whisper .message-header .message-metadata::before {
+    color: #585858;
+    content: " (big Roll) ";
+    float: left;
+}
+
+#chat-log .message.blind .message-header .message-metadata::before {
+    color: #585858;
+    content: " (Blind Roll) " !important;
+    float: left;
+}
+
+
+/* #endregion */
+
+
+/* #region Other */
+
+.sidebar-tab .directory-footer button.create-entity {
+    width: 100%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.sidebar-tab .directory-footer button.create-folder {
+    width: 100%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.sidebar-tab .directory-footer button.quest-log-btn {
+    width: 100%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.sidebar-tab .directory-footer button.create-pdf {
+    width: 100%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.fa-folder-plus:before {
+    padding-left: 10px;
+    margin-top: 7px;
+}
+
+.fa-user-plus:before{
+    padding-left: 15px;
+    margin-top: 7px;
+}    
+.fa-atlas:before {
+    padding-left: 10px;
+    margin-top: 7px;    
+    vertical-align: middle;
+}
+.directory .action-buttons button {
+    background-image: url("/modules/fantasy-ui-big/ui/img/buttongreenlight.webp");
+    background-color: unset;
+    text-align: center;
+    background-position: center !important;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+    margin-top: 5px;
+    border: 0px solid #b5b3a4;
+    color: white;
+    width: auto;
+    height: 40px !important;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: auto;
+    text-shadow: 2px 2px black;
+
+}
+.compendium-folder-header > .create-folder {
+    margin-top: 7px;
+    margin-right: 5px;
+}
+li.compendium-folder > .compendium-folder-header .create-entity-c {
+margin-top: 7px;
+}
+/* #endregion */
