@@ -4,13 +4,13 @@
 /* #region Scene Control (left side) Buttons */
 
 .scene-control {
-    background-image: url("/modules/fantasy-ui-big/ui/img/scene-control.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/scene-control.webp") !important;
     background-size: 100% 100% !important;
     color: white !important;
 }
 
 .control-tool {
-    background-image: url("/modules/fantasy-ui-big/ui/img/scene-control.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/scene-control.webp") !important;
     background-size: 100% 100% !important;
     color: white !important;
 }
@@ -26,13 +26,13 @@
 
 /* #region Scene Navigation */
 #navigation #nav-toggle {
-    background-image: url("/modules/fantasy-ui-big/ui/img/scene-control.webp");
+    background-image: url("/modules/fantasy-ui/ui/img/scene-control.webp");
     background-size: 100% 100% !important;
 }
 
 #navigation #scene-list .scene.view,
 #navigation #scene-list .scene.context {
-    background-image: url("/modules/fantasy-ui-big/ui/img/scene-control.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/scene-control.webp") !important;
     background-size: 110% 100% !important;
     color: white !important;
     background: left;
@@ -40,7 +40,7 @@
 }
 
 #navigation #scene-list .scene.gm {
-    background-image: url("/modules/fantasy-ui-big/ui/img/scene-control.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/scene-control.webp") !important;
     background-size: 110% 100% !important;
     color: white !important;
     background: left;
@@ -68,7 +68,7 @@
     overflow: hidden;
     margin: 0;
     border: 25px solid transparent;
-    border-image-source: url("/modules/fantasy-ui-big/ui/img/panel1.webp");
+    border-image-source: url("/modules/fantasy-ui/ui/img/panel1.webp");
     border-image-slice: 20 fill;
     background-position: center !important;
     background-size: 320px 100%!important;
@@ -86,7 +86,7 @@
     height: 610px !important;
     padding-left: 5px;
     border: 15px solid transparent;
-    border-image-source: url("/modules/fantasy-ui-big/ui/img/panel1.webp");
+    border-image-source: url("/modules/fantasy-ui/ui/img/panel1.webp");
     border-image-slice: 35 fill;
     background-position: center !important;
     background-size: 100% 100%!important;
@@ -123,7 +123,7 @@ i.fa-caret-down::before {
 }
 
 .fa-caret-right {
-    background-image: url("/modules/fantasy-ui-big/ui/img/right.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/right.webp") !important;
     width: 40px;
     height: 30px;
     display: inline-block !important;
@@ -135,7 +135,7 @@ i.fa-caret-down::before {
 }
 
 .fa-caret-left {
-    background-image: url("/modules/fantasy-ui-big/ui/img/left.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/left.webp") !important;
     width: 40px;
     height: 30px;
     display: inline-block !important;
@@ -148,7 +148,7 @@ i.fa-caret-down::before {
 }
 
 .fa-caret-up {
-    background-image: url("/modules/fantasy-ui-big/ui/img/up.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/up.webp") !important;
     width: 40px;
     height: 30px;
     display: inline-block !important;
@@ -161,7 +161,7 @@ i.fa-caret-down::before {
 }
 
 .fa-caret-down {
-    background-image: url("/modules/fantasy-ui-big/ui/img/down.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/down.webp") !important;
     width: 40px;
     height: 30px;
     display: inline-block !important;
@@ -175,7 +175,7 @@ i.fa-caret-down::before {
 
 #sidebar #sidebar-tabs i.fa-comments {
     content: "";
-    background-image: url("/modules/fantasy-ui-big/ui/img/speechbubble.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/speechbubble.webp") !important;
     width: 40px !important;
     height: 40px !important;
     display: inline-block !important;
@@ -215,7 +215,7 @@ i.fa-caret-down::before {
 
 #sidebar #sidebar-tabs i.fa-fist-raised {
     content: "";
-    background-image: url("/modules/fantasy-ui-big/ui/img/t_f_03.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/t_f_03.webp") !important;
     width: 40px !important;
     height: 40px !important;
     display: inline-block !important;
@@ -229,7 +229,7 @@ i.fa-caret-down::before {
 
 #sidebar #sidebar-tabs i.fa-map {
     content: "";
-    background-image: url("/modules/fantasy-ui-big/ui/img/pirates_04_t.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/pirates_04_t.webp") !important;
     width: 40px !important;
     height: 40px !important;
     display: inline-block !important;
@@ -243,7 +243,7 @@ i.fa-caret-down::before {
 
 #sidebar #sidebar-tabs i.fa-users {
     content: "";
-    background-image: url("/modules/fantasy-ui-big/ui/img/actors_color.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/actors_color.webp") !important;
     width: 40px !important;
     height: 40px !important;
     display: inline-block !important;
@@ -257,7 +257,7 @@ i.fa-caret-down::before {
 
 #sidebar #sidebar-tabs i.fa-suitcase {
     content: "";
-    background-image: url("/modules/fantasy-ui-big/ui/img/BagsAndBoxes_110_t.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/BagsAndBoxes_110_t.webp") !important;
     width: 40px !important;
     height: 40px !important;
     display: inline-block !important;
@@ -271,7 +271,7 @@ i.fa-caret-down::before {
 
 #sidebar #sidebar-tabs i.fa-book-open {
     content: "";
-    background-image: url("/modules/fantasy-ui-big/ui/img/scroll_06_t.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/scroll_06_t.webp") !important;
     width: 40px !important;
     height: 40px !important;
     display: inline-block !important;
@@ -287,7 +287,7 @@ i.fa-caret-down::before {
 }
 #sidebar #sidebar-tabs i.fa-th-list {
     content: "";
-    background-image: url("/modules/fantasy-ui-big/ui/img/TabletopBadges_50.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/TabletopBadges_50.webp") !important;
     width: 40px !important;
     height: 40px !important;
     display: inline-block !important;
@@ -301,7 +301,7 @@ i.fa-caret-down::before {
 
 #sidebar #sidebar-tabs i.fa-id-badge {
     content: "";
-    background-image: url("/modules/fantasy-ui-big/ui/img/TrophyIcons_45_t.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/TrophyIcons_45_t.webp") !important;
     width: 40px !important;
     height: 40px !important;
     display: inline-block !important;
@@ -315,7 +315,7 @@ i.fa-caret-down::before {
 
 #sidebar #sidebar-tabs i.fa-music {
     content: "";
-    background-image: url("/modules/fantasy-ui-big/ui/img/mi_t_03.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/mi_t_03.webp") !important;
     width: 40px !important;
     height: 40px !important;
     display: inline-block !important;
@@ -329,7 +329,7 @@ i.fa-caret-down::before {
 
 #sidebar #sidebar-tabs i.fa-code {
     content: "";
-    background-image: url("/modules/fantasy-ui-big/ui/img/code.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/code.webp") !important;
     width: 40px !important;
     height: 40px !important;
     display: inline-block !important;
@@ -343,7 +343,7 @@ i.fa-caret-down::before {
 
 #sidebar #sidebar-tabs i.fa-atlas {
     content: "";
-    background-image: url("/modules/fantasy-ui-big/ui/img/book_11_t.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/book_11_t.webp") !important;
     width: 40px !important;
     height: 40px !important;
     display: inline-block !important;
@@ -357,7 +357,7 @@ i.fa-caret-down::before {
 
 #sidebar #sidebar-tabs i.fa-cogs {
     content: "";
-    background-image: url("/modules/fantasy-ui-big/ui/img/en_craft_35.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/en_craft_35.webp") !important;
     width: 40px !important;
     height: 40px !important;
     display: inline-block !important;
@@ -376,7 +376,7 @@ i.fa-caret-down::before {
 /* #region Chat Tab*/
 
 .message {
-    background-image: url("/modules/fantasy-ui-big/ui/img/parchment-smooth.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/parchment-smooth.webp") !important;
 }
 
 .message-sender {
@@ -387,7 +387,7 @@ i.fa-caret-down::before {
 }
 
 #chat-message {
-    background-image: url("/modules/fantasy-ui-big/ui/img/parchment-smooth.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/parchment-smooth.webp") !important;
 }
 
 .polyglot-lang-select select {
@@ -399,12 +399,12 @@ i.fa-caret-down::before {
     height: 24px;
     top: 7px;
     padding-top: 0px;
-    background: url("/modules/fantasy-ui-big/ui/img/parchment-smooth.webp") repeat !important;
+    background: url("/modules/fantasy-ui/ui/img/parchment-smooth.webp") repeat !important;
     background-position-x: 0%;
     background-position-y: 0%;
     background-position: initial;
     box-shadow: inset 0 0 10px #000000;
-    border-image: url("/modules/fantasy-ui-big/ui/img/chat-controls-border.webp") 4 repeat;
+    border-image: url("/modules/fantasy-ui/ui/img/chat-controls-border.webp") 4 repeat;
     border-image-width: 4px;
     border-image-outset: 3px 2px 2px 2px;
     color: #520000;
@@ -431,19 +431,19 @@ i.fa-caret-down::before {
     height: 24px;
     top: 7px;
     padding-top: 3px;
-    background: url("/modules/fantasy-ui-big/ui/img/parchment-smooth.webp") repeat;
+    background: url("/modules/fantasy-ui/ui/img/parchment-smooth.webp") repeat;
     background-position-x: 0%;
     background-position-y: 0%;
     background-position: initial;
     box-shadow: inset 0 0 10px #000000;
-    border-image: url("/modules/fantasy-ui-big/ui/img/chat-controls-border.webp") 4 repeat;
+    border-image: url("/modules/fantasy-ui/ui/img/chat-controls-border.webp") 4 repeat;
     border-image-width: 4px;
     border-image-outset: 3px 2px 2px 2px;
     color: #520000;
 }
 
 #combat-controls .combat-control {
-    background-image: url("/modules/fantasy-ui-big/ui/img/buttonredlight.webp");
+    background-image: url("/modules/fantasy-ui/ui/img/buttonredlight.webp");
     text-align: center;
     background-position: center !important;
     background-size: 260px 100%!important;
@@ -465,12 +465,12 @@ i.fa-caret-down::before {
     height: 24px;
     top: 7px;
     padding-top: 3px;
-    background: url("/modules/fantasy-ui-big/ui/img/parchment-smooth.webp") repeat;
+    background: url("/modules/fantasy-ui/ui/img/parchment-smooth.webp") repeat;
     background-position-x: 0%;
     background-position-y: 0%;
     background-position: initial;
     box-shadow: inset 0 0 10px #000000;
-    border-image: url("/modules/fantasy-ui-big/ui/img/chat-controls-border.webp") 4 repeat;
+    border-image: url("/modules/fantasy-ui/ui/img/chat-controls-border.webp") 4 repeat;
     border-image-width: 4px;
     border-image-outset: 3px 2px 2px 2px;
     color: #520000;
@@ -489,7 +489,7 @@ i.fa-caret-down::before {
 }
 
 .sidebar-tab .directory-footer button {
-    background-image: url("/modules/fantasy-ui-big/ui/img/buttongreenlight.webp");
+    background-image: url("/modules/fantasy-ui/ui/img/buttongreenlight.webp");
     text-align: center;
     background-position: center !important;
     background-size: 100% 100% !important;
@@ -517,7 +517,7 @@ i.fa-caret-down::before {
 /* #region Folders as buttons */
 
 .sidebar-tab .folder .folder-header {
-    background-image: url("/modules/fantasy-ui-big/ui/img/buttonlight3.webp") !important;
+    background-image: url("/modules/fantasy-ui/ui/img/buttonlight3.webp") !important;
     text-align: left !important;
     background-position: center !important;
     background-size: 100% 100% !important;
@@ -591,7 +591,7 @@ li.folder>.folder-header .create-entity {
     top: 7px;
     padding-top: 10px;
     padding-left: 45px;
-    /*background-image: url("/modules/fantasy-ui-big/ui/img/buttonlight3.webp") !important;*/
+    /*background-image: url("/modules/fantasy-ui/ui/img/buttonlight3.webp") !important;*/
     background-position-x: 0%;
     background-size: 100% 100% !important;
     background-position-y: 0%;
@@ -702,7 +702,7 @@ li.folder>.folder-header .create-entity {
     vertical-align: middle;
 }
 .directory .action-buttons button {
-    background-image: url("/modules/fantasy-ui-big/ui/img/buttongreenlight.webp");
+    background-image: url("/modules/fantasy-ui/ui/img/buttongreenlight.webp");
     background-color: unset;
     text-align: center;
     background-position: center !important;
