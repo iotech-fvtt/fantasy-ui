@@ -1,4 +1,4 @@
 # fantasy-ui
-An updated fantasy-flavored UI for FVTT
+An updated fantasy-flavored UI for FVTT v9+
 
-Now updated for FoundryVTT v0.7.7 and compatible with the new Compendiumj Folders colors (thanksonce again  to Nebiroth!!!)
+Now updated for FoundryVTT v9+ 
