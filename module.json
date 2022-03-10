@@ -2,7 +2,7 @@
     "name": "fantasy-ui",
     "title": "Fantasy UI v2",
     "description": "An updated fantasy-flavored UI for FVTT. Uses icons from Rexard.",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "author": "iotech",
     "scripts": ["fantasyuib.js"],
     "styles": ["fantasyuib.css"],
