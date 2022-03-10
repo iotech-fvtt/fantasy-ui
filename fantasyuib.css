@@ -283,7 +283,7 @@ i.fa-caret-down::before {
     content: "";
 }
 .sidebar-tab .directory-list {
-    font-size: x-small;
+    font-size: medium;
 }
 #sidebar #sidebar-tabs i.fa-th-list {
     content: "";
@@ -372,7 +372,10 @@ i.fa-caret-down::before {
 
 /* #endregion */
 
-
+#scenes .scene h3 {
+padding-left: 10px;
+font-size: 1.2em;
+}
 /* #region Chat Tab*/
 
 .message {
@@ -527,12 +530,23 @@ i.fa-caret-down::before {
     padding-top: 5px;
     padding-bottom: 5px;
     color: white;
-    font-size: 1em;
-    padding-left: 35px !important;
+    font-size: 1.2em;
+    padding-left: 15px !important;
     margin-right: 0px !important;
     text-shadow: 2px 2px black;
+    line-height: 45px;
+}
+li.folder.collapsed > .folder-header h3{
+    line-height: 45px;
 }
 
+li.folder > .folder-header h3{
+    line-height: 45px;
+}
+
+li.folder > .folder-header .create-button .fa-plus{
+    top: 7px;
+}
 .sidebar-tab .directory-list .directory.item h3 {
     text-align: left !important;
     padding-left: 25px;
@@ -546,6 +560,7 @@ i.fa-caret-down::before {
     overflow: hidden;
     flex: unset;
 }
+
 
 li.folder>.folder-header {
     background: transparent;
@@ -590,7 +605,7 @@ li.folder>.folder-header .create-entity {
     height: 35px !important;
     top: 7px;
     padding-top: 10px;
-    padding-left: 45px;
+    padding-left: 15px;
     /*background-image: url("/modules/fantasy-ui/ui/img/buttonlight3.webp") !important;*/
     background-position-x: 0%;
     background-size: 100% 100% !important;
@@ -688,7 +703,7 @@ li.folder>.folder-header .create-entity {
 }
 
 .fa-folder-plus:before {
-    padding-left: 10px;
+    padding-left: 15px;
     margin-top: 7px;
 }
 
@@ -697,7 +712,7 @@ li.folder>.folder-header .create-entity {
     margin-top: 7px;
 }    
 .fa-atlas:before {
-    padding-left: 10px;
+    padding-left: 15px;
     margin-top: 7px;    
     vertical-align: middle;
 }
